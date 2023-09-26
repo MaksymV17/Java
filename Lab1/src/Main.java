@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         Library library = new Library();
+
         library.addBook(new Book("Чайка на ім'я Джонатан Лівінгстон", "Річард Бах", "15646844666", "1970"));
         library.addBook(new Book("П'ятнадцятирічний капітан", "Жуль Верн", "32156541661523", "1878"));
         library.addBook(new Book("Пригоди Піноккіо", "Карло Коллоді", "335484866489565", "1883"));
